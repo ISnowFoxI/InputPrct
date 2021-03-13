@@ -1,0 +1,79 @@
+body {
+    background-color: #eee;
+    font-size: 16px;
+  }
+  
+  /* Main link element (<div> tag) */
+  .link {
+    background: white;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+  
+  /* Link title (<a> tag) */
+  .linkTitle {
+      font-weight: bold;
+    color: #428bca;
+    text-decoration: none;
+    margin-right: 5px;
+  }
+  .linkTitle:hover {
+    text-decoration: none;
+  }
+  
+  /* Link URL (<span> tag) */
+  .linkUrl {
+    font-weight: normal;
+    font-size: 85%;
+  }
+  
+  /* Link headline containing title & URL (<h4> tag) */
+  .linkHeadline {
+    margin: 0;
+  }
+  
+  /* Link author (<span> tag) */
+  .linkAuthor {
+      display: block;
+    font-weight: normal;
+    font-size: 80%;
+  }
+  
+  
+
+
+  /*The code i wrote*/ 
+  .inputFieldContainer { 
+      display: flex;
+      justify-content: space-between;
+      margin-bottom: 10px;
+      flex-wrap: wrap;
+
+  }
+
+
+
+  .addlink { 
+      background-color: #428bca;
+      border: none;
+      width: 80px;
+      height: 40px;
+  }
+
+
+  .inputField { 
+        border: 1px solid grey;
+        flex-basis: 30%; 
+        flex-shrink: 2;   
+    }
+
+
+    .warning { 
+      background-color:#c0dbb6;
+      padding: 10px;
+      color: green;
+      font-size: 18px;
+      display: block;
+      width: 100%;
+      margin-top: 10px;
+    }
